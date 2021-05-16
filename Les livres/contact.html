@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title> Nous contacter - Le site des Livres </title>
+        <meta name="description" content="Voici l'histoire du livre, découvrez son histoire !" />
+
+        <meta name="keywords" content="Livre,Livre,livres,Livres,histoire,Histoire,page,pages" />
+
+        <link rel="shortcut icon" href="img/icon.png" />
+    </head>
+
+    <body>
+        
+        <h1> Nous contacter </h1>
+
+        <form action="contact.html">
+
+            <fieldset>
+
+                <legend> Voici un formulaire pour nous contacter </legend>
+
+                <div> 
+                    <label for="emailinput"> Votre email :</label>
+                    <input type="text" name="email" id="emailinput" placeholder="contact@exemple.com" autofocus required> 
+                </div>
+
+                <div>
+                    <label for="nameinput"> Votre nom :</label>
+                    <input type="text" name="firstname" id="nameinput" placeholder="Gertrude" required>
+                </div>
+
+                <div>
+                    <label id="sexe"> Sexe :</label>
+
+                    <select name="sexe" id="sexe">
+                        <option value="m">Masculin</option>
+                        <option value="f">Féminin</option>
+                        <option value="a">Autre</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="color"> Veuillez choisir la couleur de votre avatar :</label>
+                    <input type="color" name="color" id="colorinput">
+                </div>
+
+                <div>
+                    <textarea name="message" id="message" cols="30" rows="6" placeholder="Votre message"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Envoyer le formulaire">
+                    <input type="reset" value="Annuler le formulaire">
+                </div>
+
+
+
+            </fieldset>
+
+
+
+
+
+
+
+        </form>
+
+
+        <br>
+        <br>
+
+        <a href="index.html" title="Retour au menu">Retour au menu</a>
+
+    </body>
+
+</html>

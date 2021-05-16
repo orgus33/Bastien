@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Nous contacter | Restaurant Buffalo grill</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Nous contacter</h1>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <img src="img/banniere.jpg" width="1437" height="300">
+
+
+    </header>
+
+
+    <article class="main">
+        <h1>Nous envoyer un email :</h1>
+        <form action="formulaire.html">
+            <fieldset>
+                <legend> Voici un formulaire pour nous contacter :</legend>
+
+                <div class="required">
+                    <label for="emailinput">Votre email<sup>*</sup> :</label>
+                    <input type="text" name="email" id="emailinput" placeholder="contact@exemple.com" autofocus
+                        required>
+                </div>
+
+                <div class="required">
+                    <label for="name">Votre nom<sup>*</sup> :</label>
+                    <input type="text" name="name" id="name" required placeholder="Gertrude">
+                </div>
+
+                <div>
+                    <label for="age">Votre date de naissance :</label>
+                    <input type="date" name="age" id="age">
+                </div>
+
+                <div class="required">
+                    <label for="message">Votre message<sup>*</sup> :</label>
+                    <br>
+                    <textarea id="message" name="message" rows="6" cols="30" placeholder="Votre message.."
+                        required></textarea>
+                </div>
+
+                <div class="required">
+                    <p><sup>*</sup> Ce champ est requis</p>
+                </div>
+
+                <div>
+                    <button type="submit">Envoyer votre formulaire</button>
+                </div>
+
+
+            </fieldset>
+
+        </form>
+        <h2>Où nous trouver ?</h2>
+        <p> 128 rue démonstration <br>
+            60000 Oise <br>
+            France</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333582.74433233443!2d2.6182252879395786!3d49.217342495767575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d473039bf6bf%3A0xbb8c1b93f22d2618!2sBuffalo%20Grill%20Compiegne!5e0!3m2!1sfr!2sfr!4v1609546982823!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" style="border-radius:1em;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </article>
+
+
+    <footer class="footer">
+
+        <address> 128 rue démonstration</address>
+
+    </footer>
+
+</body>
+
+</html>

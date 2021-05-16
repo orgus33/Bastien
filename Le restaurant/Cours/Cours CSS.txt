@@ -1,0 +1,46 @@
+Pour sélectionner un class : mettre un point avant 
+
+Pour sélectionner un id : mettre un # devant
+
+
+
+Pour sélectionner une balise dans une balise :
+
+<div class="table">
+	<bento />
+	<plate>
+		<apple />
+	</plate>
+	<apple />
+</div>
+
+Mettre la balise ciblé plus un espace : « plate apple »
+
+
+
+
+Pour sélectionner un class toutes seul et un class dans un table :
+
+<div class="table">
+	<apple />
+	<apple class="small" />
+	<plate>
+		<apple class="small" />
+	</plate>
+	<plate />
+</div> 
+
+Mettre « .small » pour sectionner tout les class small
+
+
+Unité de mesure a mettre suivant les différents choses qu'on veux mettre une taille :
+
+pixel (px) : Pour travailler sur un écran
+
+cm, mm... : Pour de l'impression
+
+pourcentage (%) : pour que la taille soit proportionnelle a son élément parent
+
+vw ou vh : Dimmensionner un élément par rapport à la taille de la fenetre
+
+em ou rem : Pour dimmensionner un élément par rapport a la taille de la police

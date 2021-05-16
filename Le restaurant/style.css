@@ -1,0 +1,90 @@
+.header {
+	background: linear-gradient(#787878 70%, 20%, #77777700 10%);
+	padding: 10px 15px;
+	margin-top: 19px;
+	color: white;
+	border-radius: 1em 1em 0em 0em;
+}
+
+
+.main {
+	background: black;
+	padding: 11px 20px;
+}
+
+
+footer {
+	background: linear-gradient(#e66465, #9198e5);
+	color: white;
+	padding: 0.2rem;
+	border-radius: 0em 0em 1em 1em;
+	
+}
+
+.header img {
+	width: 100%;
+	height: auto;
+	margin-top: 22px;
+	border-radius: 0.6em;
+}
+
+.header nav a {
+	padding: 25px;
+	font-size: 25px;
+	color: inherit;
+	text-decoration: none;
+}
+
+.header nav a:hover {
+	text-decoration: underline;
+	color: #E74C3C;
+}
+
+.header nav {
+	text-align: center;
+	color: inherit;
+	background: transparent;
+	padding: 3px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 0.5s;
+	border-radius: 2.5em;
+}
+
+
+.required {
+	font-weight: bold;
+}
+
+form div {
+	padding: 1px 0px;
+}
+
+hr {
+	background-color: grey;
+}
+
+body {
+    background-color: linen;
+    max-width: 70em;
+    margin: auto;
+	padding-bottom: 1em;
+	background-color: #181818;
+	color: white;
+}
+
+.lien-interne {
+	color: white;
+	text-decoration: none;
+}
+
+.lien-interne:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+form input, button, textarea {
+	border-radius: 0.6em;
+}
